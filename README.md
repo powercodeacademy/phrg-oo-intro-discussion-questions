@@ -1,8 +1,8 @@
-# Week 1, Day 3 Discussion Questions
+# Object Orientation Intro Discussion Questions
 
 ## Instructions
 
-Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB.
+Take 30 minutes and answer the following questions together. Take turns playing around with the code provided in Pry or IRB.
 
 ## Questions
 
@@ -10,15 +10,13 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
 ```ruby
 class Animal
-
   def species
     "cat"
   end
-
 end
 ```
 
-How would you 
+How would you
 
 a. Make a new instance of `Animal`?
 b. `puts` out to the terminal, the species of that new `Animal` instance?
@@ -29,7 +27,6 @@ b. `puts` out to the terminal, the species of that new `Animal` instance?
 
 ```ruby
 class Animal
-
   def species
     "cat"
   end
@@ -49,8 +46,7 @@ maru == hanna
 
 ```ruby
 class Animal
-  
-  def species 
+  def species
     my_species = "cat"
   end
 
@@ -83,27 +79,12 @@ frederick.species
 
 ```ruby
 class Animal
-  
   def initialize(species)
     @species = species
   end
-
 end
 
 lil_bub = Animal.new("cat")
 ```
 
-What is the relationship between `lil_bub` and the `Animal` class? 
-
-
-
-
-
-
-
-
-
-
-
-
-
+What is the relationship between `lil_bub` and the `Animal` class?
